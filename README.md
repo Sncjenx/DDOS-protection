@@ -1,4 +1,4 @@
-
+everything that is c++ basicaly doesnt work but the python part does
 
 🛡️ Updated Documentation (v1.1.0)
 Protector Security Suite Hybrid Python Engine + C++ GUI Dashboard
