@@ -1,5 +1,46 @@
-# DDOS-protection
-## Disclaimer
-This project is for educational and defensive purposes only.
-It does not perform or promote denial-of-service attacks.
-All examples are intended for local testing and learning.
+### SOON
+
+# 🛡️ Python DDoS Protection (Defensive)
+
+A lightweight Python-based rate limiting and abuse protection system designed to help defend APIs and local servers against excessive requests.
+
+This project focuses on **defensive security techniques** commonly used to reduce abusive traffic and protect services from request flooding.
+
+---
+
+## ✨ Features
+
+- IP-based request rate limiting
+- Configurable request limits and time windows
+- Temporary blocking of abusive clients
+- Simple logging of suspicious activity
+- Lightweight and dependency-free core logic
+- Easy to integrate into existing Python servers
+
+---
+
+## 🎯 Purpose
+
+This project is **educational and defensive** in nature.  
+It demonstrates how basic protection mechanisms work and how servers can reduce the impact of excessive or abusive traffic.
+
+It does **not** perform attacks, simulations, or stress testing.
+
+---
+
+## 📁 Project Structure
+
+```text
+ddos-protection-python/
+│
+├── protector/
+│   ├── __init__.py
+│   ├── rate_limiter.py
+│   ├── ip_blocker.py
+│   └── logger.py
+│
+├── example_server.py
+├── config.py
+├── requirements.txt
+├── README.md
+└── LICENSE
