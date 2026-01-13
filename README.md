@@ -27,6 +27,11 @@ It demonstrates how basic protection mechanisms work and how servers can reduce 
 It does **not** perform attacks, simulations, or stress testing.
 
 ---
+![Python](https://img.shields.io/badge/python-3.8+-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+
+## 📦 Version
+**v1.0.0** – may be alot of bug i want to be able to learn them and im open for anyone help.
 
 ## 📁 Project Structure
 
