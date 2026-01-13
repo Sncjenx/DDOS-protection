@@ -1,53 +1,47 @@
-### all help will be helpfull dont forget im not the best & want to learn
 
-# 🛡️ Python DDoS Protection (Defensive)
+## all help is welcome ##
 
-A lightweight Python-based rate limiting and abuse protection system designed to help defend APIs and local servers against excessive requests.
+🛡️ Protector Security Suite (v1.1.0)
+Hybrid Python Engine + C++ GUI Dashboard
 
-This project focuses on **defensive security techniques** commonly used to reduce abusive traffic and protect services from request flooding.
+A defensive security tool designed to protect local servers from request flooding. This version introduces a high-speed C++ interface to monitor the Python-based protection logic in real-time. 
++1
 
----
+✨ Features
 
-## ✨ Features
+IP-Based Rate Limiting (Python): Controls the flow of incoming requests based on configurable time windows.
 
-- IP-based request rate limiting
-- Configurable request limits and time windows
-- Temporary blocking of abusive clients
-- Simple logging of suspicious activity
-- Lightweight and dependency-free core logic
-- Easy to integrate into existing Python servers
 
----
+Automated IP Blocking (Python): Temporarily "jails" abusive IP addresses.
 
-## 🎯 Purpose
+High-Performance Dashboard (C++): A native GUI built with Qt for monitoring system status without slowing down the core engine.
 
-This project is **educational and defensive** in nature.  
-It demonstrates how basic protection mechanisms work and how servers can reduce the impact of excessive or abusive traffic.
 
-It does **not** perform attacks, simulations, or stress testing.
+Centralized Configuration: All security thresholds are managed in one config.py file.
 
----
-![Python](https://img.shields.io/badge/python-3.8+-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
 
-## 📦 Version
-**v1.0.0** – may be alot of bug i want to be able to learn them and im open for anyone help.
+Detailed Logging: Tracks all blocks and system events to security_log.txt.
 
-## 📁 Project Structure
+📁 Updated Project Structure
+This new structure separates your high-speed UI code from your core logic.
 
-```text
+Plaintext
+
 ddos-protection-python/
 │
-├── protector/
-│   ├── __init__.py
-│   ├── rate_limiter.py
-│   ├── ip_blocker.py
-│   └── logger.py
+├── protector/ (Python Core)
+│   ├── __init__.py      # Package entry point 
+│   ├── rate_limiter.py  # Request frequency logic 
+│   ├── ip_blocker.py    # Blocking mechanism 
+│   └── logger.py        # Event recording 
 │
-├── example_server.py
-├── config.py
-├── requirements.txt
-├── README.md
-└── LICENSE
-
-
+├── gui_cpp/ (C++ Dashboard)
+│   ├── src/
+│   │   └── main.cpp     # Qt GUI logic
+│   └── CMakeLists.txt   # Build configuration
+│
+├── example_server.py    # Local HTTP server test 
+├── config.py            # Global settings 
+├── requirements.txt     # Python dependencies [cite: 2]
+├── README.md            # Project documentation 
+└── LICENSE              # MIT License
