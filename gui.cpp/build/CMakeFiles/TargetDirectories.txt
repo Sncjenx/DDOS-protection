@@ -1,0 +1,5 @@
+C:/Users/sasha/OneDrive/Bureau/DDOS-protection-main/gui.cpp/build/CMakeFiles/ProtectorGUI.dir
+C:/Users/sasha/OneDrive/Bureau/DDOS-protection-main/gui.cpp/build/CMakeFiles/edit_cache.dir
+C:/Users/sasha/OneDrive/Bureau/DDOS-protection-main/gui.cpp/build/CMakeFiles/rebuild_cache.dir
+C:/Users/sasha/OneDrive/Bureau/DDOS-protection-main/gui.cpp/build/CMakeFiles/ProtectorGUI_autogen_timestamp_deps.dir
+C:/Users/sasha/OneDrive/Bureau/DDOS-protection-main/gui.cpp/build/CMakeFiles/ProtectorGUI_autogen.dir
