@@ -1,31 +1,41 @@
+Understood. We will skip the comparison tables and stick to a clean, direct guide to update your project documentation and C++ environment.
 
-## all help is welcome ##
+🛡️ Updated Documentation (v1.1.0)
+Protector Security Suite Hybrid Python Engine + C++ GUI Dashboard
 
-🛡️ Protector Security Suite (v1.1.0)
-Hybrid Python Engine + C++ GUI Dashboard
+A lightweight defensive system designed to protect local servers from request flooding. This version introduces a high-speed C++ interface to monitor the Python-based protection logic in real-time.
 
-A defensive security tool designed to protect local servers from request flooding. This version introduces a high-speed C++ interface to monitor the Python-based protection logic in real-time. 
-+1
-
-✨ Features
+✨ Key Features
 
 IP-Based Rate Limiting (Python): Controls the flow of incoming requests based on configurable time windows.
 
+Automated IP Blocking (Python): Temporarily restricts abusive IP addresses.
 
-Automated IP Blocking (Python): Temporarily "jails" abusive IP addresses.
+Native Dashboard (C++): A high-performance GUI built with Qt for real-time monitoring.
 
-High-Performance Dashboard (C++): A native GUI built with Qt for monitoring system status without slowing down the core engine.
+Centralized Configuration: All security thresholds (request limits, block duration) are managed in config.py.
 
-
-Centralized Configuration: All security thresholds are managed in one config.py file.
-
-
-Detailed Logging: Tracks all blocks and system events to security_log.txt.
+Detailed Logging: Tracks all security events to security_log.txt.
 
 📁 Updated Project Structure
-This new structure separates your high-speed UI code from your core logic.
+This layout keeps your "brain" (Python) and "face" (C++) separated for a professional look.
 
 Plaintext
 
-<img width="814" height="661" alt="image" src="https://github.com/user-attachments/assets/18f35582-d722-434d-a402-dbd7453a12c3" />
-
+ddos-protection-python/
+│
+├── protector/ (Python Core)
+│   ├── __init__.py      # Package entry point
+│   ├── rate_limiter.py  # Request frequency logic
+│   ├── ip_blocker.py    # Blocking mechanism
+│   └── logger.py        # Event recording
+│
+├── gui_cpp/ (C++ Dashboard)
+│   ├── src/
+│   │   └── main.cpp     # Qt GUI logic
+│   └── CMakeLists.txt   # Build configuration
+│
+├── example_server.py    # Local HTTP server test
+├── config.py            # Global settings
+├── README.md            # Project documentation
+└── LICENSE              # MIT License
