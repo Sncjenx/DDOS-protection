@@ -1,4 +1,4 @@
-### SOON
+### all help will be helpfull dont forget im not the best & want to learn
 
 # 🛡️ Python DDoS Protection (Defensive)
 
