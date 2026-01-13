@@ -27,21 +27,5 @@ This new structure separates your high-speed UI code from your core logic.
 
 Plaintext
 
-ddos-protection-python/
-│
-├── protector/ (Python Core)
-│   ├── __init__.py      # Package entry point 
-│   ├── rate_limiter.py  # Request frequency logic 
-│   ├── ip_blocker.py    # Blocking mechanism 
-│   └── logger.py        # Event recording 
-│
-├── gui_cpp/ (C++ Dashboard)
-│   ├── src/
-│   │   └── main.cpp     # Qt GUI logic
-│   └── CMakeLists.txt   # Build configuration
-│
-├── example_server.py    # Local HTTP server test 
-├── config.py            # Global settings 
-├── requirements.txt     # Python dependencies [cite: 2]
-├── README.md            # Project documentation 
-└── LICENSE              # MIT License
+<img width="814" height="661" alt="image" src="https://github.com/user-attachments/assets/18f35582-d722-434d-a402-dbd7453a12c3" />
+
